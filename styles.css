@@ -1,0 +1,102 @@
+
+#Adiv{
+    background-color: rgb(184, 150, 203);
+    border: 2px solid black;
+    width: 15%;
+    height:15%;
+    padding: 0.25%;
+}
+#Bdiv{
+    background-color:rgb(164, 105, 196);
+    border: 2px solid black;
+    width: 15%;
+    height: 15%;
+    padding: 0.25%;
+}
+#Cdiv{
+    background-color:rgb(140, 95, 154);
+    border: 2px solid black;
+    width: 15%;
+    height:15%;
+    padding:0.25%;
+}
+#Ddiv{
+    background-color:rgb(99, 63, 129);
+    border: 2px solid black;
+    width: 15%;
+    height: 15%;
+    padding: 0.25%;
+}
+li{
+    width: 75px;
+    height: 20px;
+    background-color:rgb(218, 203, 234);
+    border: 1px dashed black;
+    padding: 0.5%;
+    margin:5%;
+}
+ul{
+    list-style-type:none;
+}
+
+li:hover{
+    background-color:rgb(245, 245, 222);
+}
+#myFoot{
+    margin-top: 12.75%;
+    background-color:rgb(63, 44, 106);
+    padding: 0.5%;
+    color:white;
+}
+/*Phone */
+@media only screen and (max-width:480px){
+    #Adiv{
+        float:left;
+    }
+}
+/*Tablet */
+@media only screen and(min-width:481px){
+   #Adiv{
+    float:left;
+   }
+   #Bdiv{
+    float:left;
+   }
+   #Cdiv{
+    clear:left;
+   }
+
+   #Ddiv{
+    clear:left;
+    margin-left:15.75%;
+    margin-top:-20%;
+   }
+}
+/*Desktop */
+@media only screen and (min-width:769px){
+    #Adiv {
+        float:left;
+    }
+    #Bdiv{
+        margin-left:46.9%;
+    }
+    #Cdiv{
+        margin-left:15.75%;
+        margin-top:-13%;
+        
+    }
+    
+    #Ddiv{
+       margin-left:31.25%;
+       margin-top:-12.9%;
+    } 
+    #footer{
+        margin-top:-5%;
+    }
+}
+#title{
+    background-color:rgb(61, 50, 96);
+    border:black;
+    color:antiquewhite;
+    padding: 1%;
+}
