@@ -36,12 +36,18 @@
     margin:0%;
 }
 li{
+    position:relative;
     width: 75px;
     height: 20px;
     background-color:rgb(218, 203, 234);
     border: 1px dashed black;
     padding: 0.5%;
     margin:5%;
+    top: -60px;;
+}
+h1{
+    position:relative;
+    top:-30%;
 }
 ul{
     list-style-type:none;
